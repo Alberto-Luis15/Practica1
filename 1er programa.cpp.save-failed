@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+struct Persona{
+    char nombre[20];
+    int edad;
+}persona1,persona2;
+
+int main(int argc, char** argv){
+    cout<<"Nombre: ";
+    cin.getline(persona2.nombre,20,'\n');
+    cout<<"Edad: ";
+    cin>>animal2.edad;
+    cout<<animal2.nombre<<endl;
+    cout<<animal2.edadd<<endl;
+    system("pause");
+    return 0;
+}
